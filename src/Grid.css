@@ -1,0 +1,47 @@
+.node{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    outline: 3px solid rgba(144,175,175,0.75);
+    text-align: center;
+}
+.node:hover{
+    background-color: black;
+}
+#start{
+    background-color: #ff0000;
+}
+div[disabled]
+{
+    pointer-events: none;
+}
+div[isVisited]
+{
+    background-color: #61dafb;
+}
+#end{
+    background-color: green;
+}
+
+.button{
+    margin: auto;
+    padding: 2px;
+    outline: 2px solid black;
+    font-size: larger;
+    cursor: pointer;
+
+}
+#button_on{
+    background-color: gray;
+}
+#toggled{
+    background-color: black;
+}
+#bar{
+    margin-bottom: 20px;
+    height: 40px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    background-color: #216ab0;
+}
